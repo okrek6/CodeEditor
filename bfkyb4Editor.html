@@ -9,31 +9,29 @@
 <html lang="en">
 
 <head>
-
 	<style id="styleTag"></style>
 	<link rel="stylesheet" href="bfkyb4Editor.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<title id="title">Code Editor</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="bfkyb4Editor.js"></script>
-
+	<script src="bfkyb4Editor.js"></script>
 </head>
 
 <body>
-
 	<h1 id="header" ondblclick="changeHeader()">Code Editor</h1>
 	<form action="#" method="POST">
 
-		<div id="divWrapper" class="group">
+		<div id="mainWrapper" class="group">
 
 			<div>
-				<textarea id="CSSCODE" placeholder="Enter CSS code here..." cols="50" rows="19" ondblclick="CSSDoubleClick()"></textarea>
+				<textarea id="cssCode" placeholder="Enter CSS code here..." cols="50" rows="19" ondblclick="CSSDoubleClick()"></textarea>
 			</div>
 
 			<div>
-				<textarea id="HTMLCODE" placeholder="Enter HTML code here..." cols="50" rows="19" ondblclick="HTMLDoubleClick()"></textarea>
+				<textarea id="htmlCode" placeholder="Enter HTML code here..." cols="50" rows="19" ondblclick="HTMLDoubleClick()"></textarea>
 			</div>
 
-			<div id="previewPanel"></div>
+			<div id="previewPanelWindow"></div>
 
 		</div>
 
@@ -42,13 +40,11 @@
 
 			<button type="button" id="toggle" onclick="toggleTextarea()">Toggle</button>
 
-			<button type="button" onclick="clearTextarea()">Clear</button>
+			<button type="button" onclick="eraseTextarea()">Erase</button>
 		</div>
 
 	</form>
 
 </body>
-
-</html>
 
 </html>

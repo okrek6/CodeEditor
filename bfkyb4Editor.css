@@ -1,17 +1,17 @@
 #header
 {
-    color: black;
+    color: #67AC5B;
     text-align: center; 
-    font-family: monospace;
+    font-family: 'Lora', serif;
     font-size: 35px;
 }
 
 body
 {
-    background-color: #C7FFFB;
+    background-color: #5f5f5f;
 }
 
-#divWrapper
+#mainWrapper
 {
     width: 670px;
     
@@ -29,21 +29,20 @@ body
 #previewPanel
 {
     padding: 2px; 
-    border: 4px groove #35ACE8;
-                
-    height: 508px;
-           
+    border: 6px solid #67AC5B;
+    height: 509px;
     -webkit-break-after: column;            
     -moz-break-after: column;
-    break-after: column;
-                
+    break-after: column; 
     font-size: 12px;
     width: 318px;
+    border-radius: 10px;
 }
 
 #buttonWrapper
 {
     text-align: center;
+    padding: 20px;
 }
 
 .group:after
@@ -61,38 +60,46 @@ body
 
 textarea
 {
-    border: groove 4px #35ACE8;
-    resize:none;
+    border: solid 4px #67AC5B;
+    resize: none;
     box-shadow: none;
+    margin: 1px;
+    border-radius: 10px;
 }
 
 button
 {
-    background-color: #35ACE8;
+    background-color: #67AC5B;
+    border-radius: 40px;
+    width: 150px;
+    margin: 20px;
+    height: 30px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
 }
 
-#HTMLCODE
+#htmlCode
 {
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 0 0 5px #67AC5B;
 }
 
-#HTMLCODE:focus
+#htmlCode:focus
 {
-    box-shadow: 4px 4px 4px coral;
+    box-shadow: 0 0 5px yellow;
 }
 
-#CSSCODE
+#cssCode
 {
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 0 0 5px #67AC5B;
 }
 
-#CSSCODE:focus
+#cssCode:focus
 {
-    box-shadow: 4px 4px 4px coral;
+    box-shadow: 0 0 5px yellow;
 }
 
 #previewPanel
 {
-    box-shadow: 4px 4px 4px black;
-    background-color: white;
+    box-shadow: 0 0 5px #67AC5B;
+    background-color: whitesmoke;
 }
