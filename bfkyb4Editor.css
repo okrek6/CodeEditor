@@ -1,0 +1,98 @@
+#header
+{
+    color: black;
+    text-align: center; 
+    font-family: monospace;
+    font-size: 35px;
+}
+
+body
+{
+    background-color: #C7FFFB;
+}
+
+#divWrapper
+{
+    width: 670px;
+    
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+            
+    -webkit-column-gap: normal;
+    -moz-column-gap: normal;
+    column-gap: normal;
+
+    margin: 0 auto;
+}
+
+#previewPanel
+{
+    padding: 2px; 
+    border: 4px groove #35ACE8;
+                
+    height: 508px;
+           
+    -webkit-break-after: column;            
+    -moz-break-after: column;
+    break-after: column;
+                
+    font-size: 12px;
+    width: 318px;
+}
+
+#buttonWrapper
+{
+    text-align: center;
+}
+
+.group:after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#creator
+{ 
+    text-align: center;
+    font-family: monospace;
+}
+
+textarea
+{
+    border: groove 4px #35ACE8;
+    resize:none;
+    box-shadow: none;
+}
+
+button
+{
+    background-color: #35ACE8;
+}
+
+#HTMLCODE
+{
+    box-shadow: 4px 4px 4px black;
+}
+
+#HTMLCODE:focus
+{
+    box-shadow: 4px 4px 4px coral;
+}
+
+#CSSCODE
+{
+    box-shadow: 4px 4px 4px black;
+}
+
+#CSSCODE:focus
+{
+    box-shadow: 4px 4px 4px coral;
+}
+
+#previewPanel
+{
+    box-shadow: 4px 4px 4px black;
+    background-color: white;
+}

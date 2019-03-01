@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!--
+    name: Brendan Krekeler
+    pawprint: bfkyb4
+    date: Feburary 27th
+-->
+
+<html lang="en">
+
+<head>
+
+	<style id="styleTag"></style>
+	<link rel="stylesheet" href="bfkyb4Editor.css">
+	<title id="title">Code Editor</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="bfkyb4Editor.js"></script>
+
+</head>
+
+<body>
+
+	<h1 id="header" ondblclick="changeHeader()">Code Editor</h1>
+	<form action="#" method="POST">
+
+		<div id="divWrapper" class="group">
+
+			<div>
+				<textarea id="CSSCODE" placeholder="Enter CSS code here..." cols="50" rows="19" ondblclick="CSSDoubleClick()"></textarea>
+			</div>
+
+			<div>
+				<textarea id="HTMLCODE" placeholder="Enter HTML code here..." cols="50" rows="19" ondblclick="HTMLDoubleClick()"></textarea>
+			</div>
+
+			<div id="previewPanel"></div>
+
+		</div>
+
+		<div id="buttonWrapper">
+			<button type="button" onclick="launchTextarea()">Launch</button>
+
+			<button type="button" id="toggle" onclick="toggleTextarea()">Toggle</button>
+
+			<button type="button" onclick="clearTextarea()">Clear</button>
+		</div>
+
+	</form>
+
+</body>
+
+</html>
+
+</html>
